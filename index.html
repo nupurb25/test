@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nupur Bhalekar | Cloud & DevOps Engineer</title>
+
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #111a2e;
+      --accent: #38bdf8;
+      --accent-2: #22c55e;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --border: #1e293b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", system-ui, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #0f172a, #020617);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1150px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+
+    header {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(120deg, #020617, #0f172a);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(to right, #38bdf8, #22c55e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      color: var(--muted);
+      max-width: 700px;
+      margin-top: 1rem;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      background: rgba(56,189,248,0.1);
+      color: var(--accent);
+      border: 1px solid rgba(56,189,248,0.3);
+      font-size: 0.9rem;
+    }
+
+    section {
+      margin-top: 5rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    section h2::after {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(to right, var(--accent), var(--accent-2));
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--card), #0b1220);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 1.6rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: #e2e8f0;
+    }
+
+    .card span {
+      font-size: 0.85rem;
+      color: var(--accent);
+    }
+
+    .card p {
+      margin-top: 0.8rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    ul {
+      margin-top: 0.8rem;
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.4rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 6rem;
+      padding: 3rem 1.5rem;
+      text-align: center;
+      border-top: 1px solid var(--border);
+      background: #020617;
+    }
+
+    footer p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.4rem; }
+      section { margin-top: 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container hero">
+    <h1>Nupur Bhalekar</h1>
+    <span class="badge">Cloud & DevOps Engineer</span>
+    <p>
+      I design, automate, and secure cloud infrastructure using AWS, Linux,
+      Terraform, and Ansible. Passionate about scalable architectures,
+      Infrastructure as Code, and production-grade deployments.
+    </p>
+  </div>
+</header>
+
+<main class="container">
+
+  <section>
+    <h2>Core Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>AWS Cloud</h3>
+        <p>EC2, S3, RDS, VPC, IAM, ALB, Route 53, CloudFront, CloudWatch</p>
+      </div>
+      <div class="card">
+        <h3>DevOps & IaC</h3>
+        <p>Terraform, Ansible, Git, Infrastructure Automation</p>
+      </div>
+      <div class="card">
+        <h3>Linux & Scripting</h3>
+        <p>Bash scripting, Python automation, server hardening</p>
+      </div>
+      <div class="card">
+        <h3>Databases</h3>
+        <p>MySQL, MariaDB, backups, performance tuning</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Cloud Engineer Intern</h3>
+        <span>Nixace Technologies | Oct 2025 – Present</span>
+        <ul>
+          <li>Deployed and managed production web applications on AWS EC2</li>
+          <li>Implemented IAM roles, S3 policies, and VPC networking</li>
+          <li>Performed Linux administration: users, permissions, services</li>
+          <li>Automated server tasks using Bash scripts</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>SEO Analyst</h3>
+        <span>Feedspot | Jun 2024 – Apr 2025</span>
+        <ul>
+          <li>Improved website security and domain authority</li>
+          <li>Monitored backlinks and performed technical SEO analysis</li>
+          <li>Worked closely with dev teams on performance improvements</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Featured Projects</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>E-Commerce Platform on AWS</h3>
+        <span>EC2 • S3 • RDS • VPC • CloudFront</span>
+        <ul>
+          <li>Designed a scalable multi-tier architecture on AWS</li>
+          <li>Deployed application servers on EC2 with security groups</li>
+          <li>Used RDS for relational database with automated backups</li>
+          <li>Integrated CloudFront CDN for performance and HTTPS</li>
+          <li>Implemented IAM least-privilege access model</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Infrastructure Automation with Terraform & Ansible</h3>
+        <span>Terraform • Ansible • AWS</span>
+        <ul>
+          <li>Provisioned EC2, VPC, subnets, and security groups using Terraform</li>
+          <li>Followed modular IaC and remote state best practices</li>
+          <li>Automated OS setup, package installation, and services with Ansible</li>
+          <li>Reduced manual configuration errors and deployment time</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>WordPress Hosting on AWS</h3>
+        <span>EC2 • Apache • PHP • MariaDB</span>
+        <ul>
+          <li>Hosted WordPress on EC2 with LAMP stack</li>
+          <li>Configured custom domain with Route 53</li>
+          <li>Enabled HTTPS using Certbot and automated renewals</li>
+          <li>Hardened server with firewall rules and permissions</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Education & Certifications</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>B.E. Computer Engineering</h3>
+        <span>Atharva College of Engineering, Mumbai</span>
+        <p>CGPA: 8.69 (2020 – 2024)</p>
+      </div>
+      <div class="card">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Oracle Cloud Infrastructure Foundations Associate (2025)</li>
+          <li>Cisco Networking Basics (2025)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    📍 Mumbai, India &nbsp; | &nbsp;
+    📧 nupurbhalekar8850@gmail.com
+  </p>
+  <p>© 2026 Nupur Bhalekar</p>
+</footer>
+
+</body>
+</html>
